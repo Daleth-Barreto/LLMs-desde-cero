@@ -1,4 +1,4 @@
-# Build a Large Language Model (From Scratch)
+# Construye un modelo de lenguaje grande (desde cero)
 
 *(Nota: Esta es una traducción al español técnico realizada por **Hernández Barreto Alan Daleth**. Todos los créditos de la obra original, incluyendo el código, el libro, los videos y los materiales didácticos, pertenecen exclusivamente a su autor original,* ***Sebastian Raschka*** *).*
 

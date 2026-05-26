@@ -1,76 +1,55 @@
-# Recommendations for Getting the Most Out of a Technical Book
+# Recomendaciones para sacar el máximo provecho de un libro técnico
 
-Below are a few notes I previously shared when readers ask how to get the most out of my building large language model from scratch book(s).
+A continuación, comparto algunas notas que he publicado anteriormente cuando los lectores me preguntan cómo aprovechar al máximo mi(s) libro(s) sobre la construcción de *Large Language Models* desde cero.
 
+Sigo un enfoque similar cuando leo libros técnicos. No pretende ser una receta universal, pero puede servir como un buen punto de partida.
 
-I follow a similar approach when I read technical books myself. It is not meant as a universal recipe, but it may be a helpful starting point.
+Para este libro en particular, sugiero fuertemente leerlo en orden, ya que cada capítulo depende del anterior. Y para cada capítulo, recomiendo los siguientes pasos.
 
-For this particular book, I strongly suggest reading it in order since each chapter depends on the previous one. And for each chapter, I recommend the following steps.
+### 1) Primera lectura (*offline*)
 
-&nbsp;
-### 1) First read (offline)
+Recomiendo leer el capítulo de principio a fin sin programar nada todavía. El objetivo de esta primera pasada es entender el panorama general primero.
 
-I recommend reading the chapter from start to finish without any coding, yet.
-The goal of this first read-through is to get the big picture first.
+Idealmente, recomiendo leer el capítulo lejos de la computadora. Una copia física funciona bien, pero un dispositivo digital sin distracciones (sin navegador, redes sociales ni correo electrónico) también sirve.
 
-Ideally, I recommend reading the chapter away from the computer. A physical copy works
-well, but a digital device without distractions (no browser, social media, or
-email) works, too.
+En lo personal, leo tanto en papel como en una tableta de tinta electrónica (*e-ink*). Aunque uso tabletas *e-ink* desde 2018 y siempre trato de leer más en ellas, sigo notando que las copias físicas me ayudan a concentrarme mejor. Por eso también a veces imprimo *papers* de investigación que son complejos o que realmente quiero entender a detalle.
 
-Personally, I read both on paper and on an e-ink tablet. While I have used
-e-ink tablets since 2018, and always try to read more on e-ink, I still notice
-that physical copies help me focus better. That is also why I sometimes print
-research papers that are challenging or that I really want to understand in
-detail.
+Mi recomendación es que esta primera lectura sea una sesión corta y enfocada de 20 minutos, con mínimas distracciones y sin darle demasiadas vueltas ni quedarse atascado en los detalles.
 
-My recommendation is to make the first read-through a short, focused 20-minute reading
-session with minimal distractions and without overthinking it or getting stuck
-with details.
+Resaltar o anotar partes confusas o interesantes está perfecto, pero no me pondría a buscar conceptos en esta etapa. Solo sugiero leer, pero sin ejecutar código todavía. Esta primera pasada está pensada para asimilar la idea global.
 
-Highlighting or annotating confusing or interesting parts is
-fine, but I would not look things up at this stage. I just suggest reading, but
-not running any code yet. This first pass is meant to understand the bigger picture.
+### 2) Segunda lectura (con código)
 
-&nbsp;
-### 2) Second read (with code)
+En la segunda lectura, recomiendo transcribir y ejecutar el código del capítulo. Copiar el código es tentador porque volver a teclear es mucho trabajo, pero cuando leo otros libros técnicos, por lo general me ayuda a pensar un poco más en el código (en lugar de solo echarle un vistazo superficial).
 
-On the second read-through, I recommend typing up and running the code from the chapter. Copying code is tempting because retyping is a lot of work, but when I read other technical books, it usually helps me to think about the code a bit more (versus just glancing over it). 
+Si obtengo resultados diferentes a los del libro, revisaría el repositorio de GitHub del libro y probaría el código desde ahí. Si sigo obteniendo resultados distintos, intentaría ver si se debe a diferentes versiones de paquetes, *random seeds* (semillas aleatorias), uso de CPU/CUDA, etc. Si después de eso sigo sin resolverlo, no sería mala idea preguntarle al autor (a través del foro del libro, en los *issues* o *discussions* públicos del repositorio en GitHub y, como último recurso, por correo electrónico).
 
-If I get different results than in the book, I would check the book's GitHub repo and try the code from there. If I still get different results, I would try to see if it's due to different package versions, random seeds, CPU/CUDA, etc. If I then still can't figure it out, asking the author would not be a bad idea (via the book forum, public GitHub repo issues or discussions, and as a last resort, email).
+### 3) Ejercicios
 
-&nbsp;
-### 3) Exercises
+Después de la segunda lectura, de haber transcrito y ejecutado el código, suele ser un buen momento para intentar los ejercicios. Es excelente para consolidar la comprensión o jugar con un problema de manera semiestructurada. Si el ejercicio es demasiado complejo, está bien mirar la solución. Sin embargo, sigo recomendando hacer un buen intento primero.
 
-After the second read-through, retyping and running the code, it's usually a good time to try the exercises. It's great for solidifying one's understanding or tinkering with a problem in a semi-structured way. If the exercise is too challenging, it's okay to look at the solution. However, I would still recommend giving it a solid try first.
+### 4) Revisa tus notas y explora más a fondo
 
-&nbsp;
-### 4) Review notes and explore further
+Ahora, después de leer el capítulo, correr el código y resolver los ejercicios, recomiendo volver a los resaltados y anotaciones de las dos lecturas anteriores y ver si todavía hay algo que no quede claro.
 
-Now, after reading the chapter, running the code, and doing the exercises, I recommend going back to highlights and annotations from the previous two read-throughs and seeing if there's still something unclear.
+Este también es un buen momento para buscar referencias adicionales o hacer una búsqueda rápida para aclarar cualquier cosa que aún parezca no estar resuelta. Pero incluso si todo tiene sentido, leer más sobre un tema de tu interés no es mala idea.
 
-This is also a good time to look up additional references or do a quick search to clarify anything that still feels unresolved. But even if everything makes sense, reading more about a topic of interest is not a bad idea.
+En esta etapa, también tiene sentido anotar o transferir conocimientos útiles, *code snippets*, etc., a tu aplicación de notas favorita.
 
-At this stage, it also makes sense to write down or transfer useful insights, code snippets, etc., to your favorite note-taking app. 
+### 5) Aplica las ideas en un proyecto
 
-&nbsp;
-### 5) Use the ideas in a project
+Los pasos anteriores consistían en absorber conocimiento. Ahora, intenta ver si puedes usar ciertos aspectos de un capítulo en tu propio proyecto. O tal vez construir un pequeño proyecto usando el código del libro como punto de partida. Para inspirarte, revisa el material extra, que básicamente son miniproyectos que hice para satisfacer mi propia curiosidad.
 
-The previous steps were all about soaking up knowledge. Now, see if you can use certain aspects of a chapter in your own project. Or maybe build a small project using the code from the book as a starting point. For inspiration, check out the bonus materials, which are basically mini-projects I did to satisfy my own curiosity.
+Por ejemplo, después de leer sobre los mecanismos de *multi-head attention* e implementar el LLM, puede que te preguntes qué tan bien funciona un modelo con *grouped-query attention*, o qué tanta diferencia hace realmente usar `RMSNorm` en lugar de `LayerNorm`. Y así sucesivamente.
 
-For example, after reading about the multi-head attention mechanisms and implementing the LLM, you may wonder how well a model with grouped-query attention performs, or how much of a difference RMSNorm vs LayerNorm really makes. And so forth.
+También podría haber aspectos más pequeños que resulten útiles en tus propios proyectos. Por ejemplo, a veces es un detalle diminuto el que termina siendo útil, como probar si llamar explícitamente a `torch.mps.manual_seed(seed)` cambia algo en comparación con usar solo `torch.manual_seed(seed)`.
 
-There could also be smaller aspects that could be useful in your own projects. For example, sometimes it is a tiny detail that ends up being useful, like testing whether
-explicitly calling `torch.mps.manual_seed(seed)` changes anything
-compared to using `torch.manual_seed(seed)` alone.
+A fin de cuentas, de alguna forma quiero usar ese conocimiento. Esto podría implicar usar el concepto principal del capítulo, pero a veces también pequeños detalles que aprendí en el camino, ej., incluso cosas triviales como si realmente hace una diferencia en mi proyecto llamar explícitamente a `torch.mps.manual_seed(seed)` en lugar de solo `torch.manual_seed(seed)`.
 
-Eventually, though, I somehow want to use that knowledge. This could involve using the main concept from the chapter, but also sometimes minor tidbits I learned along the way, e.g., even trivial things like whether it actually makes a difference in my project to explicitly call 
-`torch.mps.manual_seed(seed)` instead of just `torch.manual_seed(seed)`.
+### Pensamientos adicionales
 
-&nbsp;
-### Additional thoughts
+Por supuesto, nada de lo anterior está escrito en piedra. Si el tema en general me es muy familiar o fácil, y principalmente estoy leyendo el libro para obtener algo de información de capítulos posteriores, ojear rápidamente el capítulo está bien (para no perder el tiempo).
 
-Of course, none of the above is set in stone. If the topic is overall very familiar or easy, and I am primarily reading the book to get some information in later chapters, skimming a chapter is ok (to not waste my time).
+Además, para los capítulos que no tienen nada de código (por ejemplo, el capítulo introductorio 1), tiene por supuesto sentido saltarse los pasos relacionados con programar.
 
-Also, for chapters that don't have any code (for example, the introductory chapter 1), it makes of course sense to skip the code-related steps.
-
-Anyway, I hope this is useful. And happy reading and learning!
+En fin, espero que esto sea de utilidad. ¡Y feliz lectura y aprendizaje!
